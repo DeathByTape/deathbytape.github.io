@@ -6,7 +6,8 @@ categories: articles
 tags: [haskell,json,aeson,data,parsing,functional,programming,fp]
 comments: true
 share: true
-redirect_from: /post/110309915014/json-parse-haskell
+ads: true
+redirect_from: ['/post/110309915014/json-parse-haskell/', '/post/110309915014/']
 ---
 
 <p>Haskell is a great language and there are many resources already online to learning the language. That said, I remember that I found it difficult to really see any &ldquo;real-world&rdquo; examples of certain libraries when I started learning. Given the current state of the internet, it seems that JSON is king when it comes to the many data transfer formats in the age of the web. As a result, I am going to describe a short few use-cases and examples on how to parse JSON data in Haskell.</p><p><b>Caution:</b> Before you proceed, I assume you understand at least the <i>basics</i> of Haskell. There are many great resources online and, most notably, <a href="http://learnyouahaskell.com/" target="_blank">this online book</a> is a fantastic starter resource (yes, you really should read it cover to cover from beginning to end).</p><p>Alright, so the problem we&rsquo;re looking to solve is how to translate some text code (i.e. JSON) to an internal Haskell representation. As in any programming language, we prefer to use popular libraries whenever possible (especially for error-prone tasks such as parsing). As luck would have it, Haskell does have a library known as <a href="https://hackage.haskell.org/package/aeson-0.8.0.2/docs/Data-Aeson.html" target="_blank">Aeson</a> which can help us here. The library is pretty well designed and reasonably easy to use. In any case, this post is designed to help all of you trying to get a grasp of using Haskell in real-world applications, so we&rsquo;re going to go through an example. Consequently, we can model an address book using a JSON file to store the data. An example file would look as follows:</p>

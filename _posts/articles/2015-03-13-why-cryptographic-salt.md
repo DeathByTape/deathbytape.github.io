@@ -6,7 +6,8 @@ categories: articles
 tags: [salt,cryptography,cryptographic,security,computers]
 comments: true
 share: true
-redirect_from: /post/113483796244/why-cryptographic-salt
+ads: true
+redirect_from: ['/post/113483796244/why-cryptographic-salt/', '/post/113483796244/']
 ---
 
 <p>Someone recently asked me why we should use a salt if were simply going to store it in plaintext. I mean, after all, if an attacker is trying to crack a password, they simply add the salt to whatever generated string theyre checking and it has seemingly negligible effect. While this is true, it misses some fundamental concepts as to what a cryptographic salt actually adds by way of security.</p><h2>Wait a second. Salt? Thats what I put on my fries.</h2><p>Well, yes. Salt is the delicious white crystalline substance which we often use to add flavor to our food. However, it can also be used to add flavor (so to speak) to our passwords. When people are talking about salting in the context of cryptography, they are typically referring to a <i>random string</i> which is deterministically combined (i.e. usually appended or prepended) with some value which is then <a href="http://en.wikipedia.org/wiki/Hash_function" target="_blank">hashed</a>. For instance, if we had some hash function <i>h(x)</i>, we might salt a password as follows:</p>

@@ -6,7 +6,8 @@ categories: articles
 tags: [education,cost,expensive,generation,millennials,everyonesproblem]
 comments: true
 share: true
-redirect_from: /post/117958696624/cost-of-ed-crippled-generation
+ads: true
+redirect_from: ['/post/117958696624/cost-of-ed-crippled-generation/', '/post/117958696624/']
 ---
 
 <p>People are always talking about it: student loans are too high, kids come out of school overqualified and without a job, etc. In short, were all aware that there is a problem with the rising cost of education in our current time. That being said, Ive seen little by way of quantification of the issue, so I am going to attempt to both quantify and reason about this problem. It is for many one of the greatest plagues of our generation. That being said, this is <em>not</em> a rant about earlier generations (but Ill get to that). In fact, it is simply a realization of the problem with some loose suggestions on how we can begin to tackle the issue.</p>

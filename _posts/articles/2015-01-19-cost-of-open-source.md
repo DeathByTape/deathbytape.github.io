@@ -6,7 +6,8 @@ categories: articles
 tags: [open,source,opensource,software,cost]
 comments: true
 share: true
-redirect_from: /post/108582272014/cost-of-open-source
+ads: true
+redirect_from: ['/post/108582272014/cost-of-open-source/', '/post/108582272014/']
 ---
 
 <p>Open source is a fantastic thing in the world of software. It allows you to quickly expand, grow, and learn from the hard work of others. And, I mean, the best way to improve the wheel is to start with one and not rebuild it from the ground up first. However, it does not seem many people always like to talk about the dark-side of code reuse. While Joel has a <a href="http://www.joelonsoftware.com/articles/fog0000000007.html" target="_blank">defense</a> on Not-Invented-Here-Syndrome (of which I largely agree with), I think it runs much deeper than this.</p><p>Adopting someone elses code is much like adopting their 17 year-old child; at first it may seem harmless (though, admittedly, somewhat uncomfortable). Aside from feeding it (i.e. giving it the right inputs), it seems to behave nicely (most code does too¦ for the common cases). After a while, though, its history begins to come out. As you want to help that child grow and prepare him- or herself for life, you are now stuck with all of the bad parenting decisions that occurred before you were in the picture.</p>

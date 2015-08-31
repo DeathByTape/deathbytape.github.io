@@ -6,7 +6,8 @@ categories: articles
 tags: [virtual,memory,model,computer,architecture,programming,c]
 comments: true
 share: true
-redirect_from: /post/110371790629/intro-virtual-memory
+ads: true
+redirect_from: ['/post/110371790629/intro-virtual-memory/', '/post/110371790629/']
 ---
 
 <p>I proposed a topic not-so-long-ago when I was <a href="http://deathbytape.com/2015/02/01/pointer-refresher.html" target="_blank">discussing pointers</a>: virtual memory. <a href="http://en.wikipedia.org/wiki/Virtual_memory" target="_blank">Virtual memory</a> is probably one of the most powerful advances we&rsquo;ve seen in computer architecture over the years which has really allowed computing to grow so quickly. Yes, they continue to pack transistors on chips even more tightly, but the truth is that if we only had 4GB of RAM to simultaneously share with all processes on our computer, we could certainly run into some trouble. You can certainly forget about playing World of Warcraft while you chat over you vent server and browse the web for that guide to lead you through the raid.</p>

@@ -6,7 +6,8 @@ categories: articles
 tags: [software,engineering,development,instant,gratification]
 comments: true
 share: true
-redirect_from: /post/108441849019/dont-take-shortcuts
+ads: true
+redirect_from: ['/post/108441849019/dont-take-shortcuts/', '/post/108441849019/']
 ---
 
 <p>Lately I have seen several books, blogs, and sites about learning some technology <i>&ldquo;X&rdquo;</i> in 24 hours; these offerings sound largely preposterous to me. Now, before we start a holy war on what people can and cannot learn in a certain amount of time, let me scope this thesis a bit. In particular, I am criticizing the resources which seemingly offer you the world in a box (for a nominal fee, of course) and no time to digest the presented information.</p><p>Let&rsquo;s begin with an example that we will use throughout this post. Consider one of the many resources which suggest you can &ldquo;Learn iOS programming in 24 hours.&rdquo; Well, sure, I too could teach you how to write a hello world program for any device (and likely in less than 24 hours), but you cannot truly get a sense of how to effectively program iOS apps from ground zero in 24 hours. In fact, this is something I claim to be impossible. If you don&rsquo;t understand an acceptable programming language to begin with (i.e. ARM, C, C++, Objective-C, Swift), that&ndash; in and of itself&ndash; may take months if not years to master effectively.</p>

@@ -6,7 +6,8 @@ categories: articles
 tags: [c++,cpp,multithreading,threads,c++11,c++14,programming,software,engineering,futures,promises,async]
 comments: true
 share: true
-redirect_from: /post/110008612055/cpp-threading
+ads: true
+redirect_from: ['/post/110008612055/cpp-threading/', '/post/110008612055/']
 ---
 
 <p>If you&rsquo;ve been writing software for more than 5 years or so in C++, you&rsquo;re almost certainly familiar with Win32 threads or pthreads. GUI programming aside, one of the most painful problems when writing cross-platform software in C++ has been threading properly. Since many systems use different underlying mechanisms for multithreading, your pretty source code quickly becomes muddled with all sorts of <i>#ifdef</i> preprocessor conditions defining behavior for each platform. After complaining about this for years, <b>C++11</b> finally did something amazing for us C++ devs; they introduced the construct of <b>std::thread</b><i>.</i></p><p>At this point, any C++ compiler worth using should implement std::thread. If your boss is forcing you to use <a href="http://www.bloodshed.net/devcpp.html" target="_blank">Dev-C++</a>, then the only advice I have for you is to simply quit your job right now. Seriously. Anyway, assuming you have a compiler that helps you rather than cripples you, the correct way to now write threaded software in C++ is to now use this gem of an API. The <a href="http://en.cppreference.com/w/cpp/thread/thread" target="_blank">std::thread interface</a> is very clean and easy to use which makes writing this post easier. That said, it would be uninteresting and monotonous if I just threw up a few code examples and said, &ldquo;have a nice day,&rdquo; so I will, of course, go into some discussion about threading in general.</p>

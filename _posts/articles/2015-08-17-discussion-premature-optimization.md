@@ -6,7 +6,8 @@ categories: articles
 tags: [code,performance,optimization,software,engineering]
 comments: true
 share: true
-redirect_from: /post/126881498119/discussion-premature-optimization
+ads: true
+redirect_from: ['/post/126881498119/discussion-premature-optimization/', '/post/126881498119/']
 ---
 
 <p>Anyone who has ever taken a computer science course is familiar with the phrase, premature optimization and its negative connotation. It is true that this is something which will often waste time, but how do people identify when theyre prematurely optimizing? When do you know you should be optimizing? If youre not optimizing performance, should you be careless? If not, what should you focus on? These are only a few of the questions that arise from this phrase and were going to tackle them together right here. </p>

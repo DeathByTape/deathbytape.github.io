@@ -6,7 +6,8 @@ categories: articles
 tags: [opensource,software,engineering,produce,content,win]
 comments: true
 share: true
-redirect_from: /post/108946392382/producing-open-source-content
+ads: true
+redirect_from: ['/post/108946392382/producing-open-source-content/', '/post/108946392382/']
 ---
 
 <p>Producing open source content is popular among many developers, but really, what is the gain from it? The benefits are numerous (well beyond the scope of this article), but Im going to elaborate on a few. This is also pertinent to those of us whose employers dont allow us to contribute to open source due to various reasons (such as my previous employer&ndash; though great as it was working there). In any event, this list may convince you that open source is important and make you think about it when youre searching for new opportunities.</p>

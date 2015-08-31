@@ -6,7 +6,8 @@ categories: articles
 tags: [discussion,respect,scientific,reasoning,method,scientificmethod]
 comments: true
 share: true
-redirect_from: /post/108766833809/intelligent-discourse
+ads: true
+redirect_from: ['/post/108766833809/intelligent-discourse/', '/post/108766833809/']
 ---
 
 <p>We all have egos. There, I said it. But its true and, in fact, incredibly important to life as we know it. Consider a world where no one had an ego: nothing would get accomplished. There would be no opinions or contradictory thoughts to advance the world in any meaningful way. This all sounds pretty awful, but Im sure all of us have experienced at one point or the other the dark side of egos. Someone is simply too stubborn to level or come to terms with a new idea. This is incredibly counterproductive to facilitating intelligent thought and conversation among peers.</p><p>I like to think of an ego like fire: it is both incredibly powerful and useful when used properly, but when mishandled or out of control can certainly be catastrophic. Man has more or less mastered fire, though there are still constant reminders of its power in the form of wildfires, accidents (out of control), and arson (misuse of fire) which often claim many lives. The same is true with our egos. In particular, they can be powerful tools to forcing our message to be heard and begin an intelligent dialog while they can also be used to simply subdue superior ideas in favor of pride.</p>

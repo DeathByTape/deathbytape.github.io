@@ -5,7 +5,7 @@ locale: en_US
 description: No bureaucracy. Just Technology.
 logo: #site-logo.png
 search: true
-url: http://localhost:3000
+url: http://deathbytape.com
 
 # Jekyll configuration
 
