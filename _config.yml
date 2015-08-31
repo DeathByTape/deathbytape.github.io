@@ -1,0 +1,62 @@
+# Site wide configuration
+
+title: DeathByTape
+locale: en_US
+description: No bureaucracy. Just Technology.
+logo: #site-logo.png
+search: true
+url: http://localhost:3000
+
+# Jekyll configuration
+
+permalink:   date
+markdown:    redcarpet
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+paginate: 10
+paginate_path: "/articles/:num"
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+#kramdown:
+#  auto_ids: true
+#  footnote_nr: 1
+#  entity_output: as_char
+#  toc_levels: 1..2
+#  use_coderay: false
+#  input: GFM
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Dennis J. McWherter, Jr.
+  avatar: dennis.jpg
+  disqus-shortname: DeathByTape
+  twitter: DeathByTape
+  facebook: #username
+  github: DeathByTape
+  stackexchange: http://stackoverflow.com/users/388182/raged
+  linkedin: #username
+  instagram: #username
+  flickr: #username
+  tumblr: DeathByTape
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics: UA-49713203-1
+    verify:
+    ad-client: ca-pub-3538506095429277
+    ad-slot: 4453619217
+  bing-verify:
