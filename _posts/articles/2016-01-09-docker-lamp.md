@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Docker for Quick Web Replication"
-excerpt:
+excerpt: ""
 categories: articles
 tags: [docker,LAMP,Linux,Apache,MySQL,PHP,web]
 comments: true
