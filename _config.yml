@@ -10,7 +10,6 @@ url: http://deathbytape.com
 # Jekyll configuration
 
 permalink:   date
-markdown:    redcarpet
 highlighter: pygments
 sass:
   sass_dir: _sass
